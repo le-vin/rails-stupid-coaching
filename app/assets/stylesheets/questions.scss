@@ -1,0 +1,51 @@
+@import url(https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css);
+
+body {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.answer {
+  width: 400px;
+  border-left: 5px solid lightgrey;
+  padding: 5px 0px;
+  margin: 15px 0px;
+  &:hover {
+    background-color: #fffee1;
+  }
+}
+
+h1 {
+  padding: 20px 0px;
+}
+
+.input {
+  width: 400px;
+  height: 50px;
+  margin-right: -1px;
+  border-radius: 0px;
+}
+
+.btn {
+  height: 50px;
+  margin-left: -15px;
+  margin-bottom: 4px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .input {
+    width: 400px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .input {
+    width: 400px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .input {
+    width: 100%;
+  }
+}
